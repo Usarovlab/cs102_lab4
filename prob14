@@ -1,0 +1,9 @@
+#include <iostream>
+using namespace std;
+int main() {
+int day;
+    cin>>day;
+    cout << ((day==1)?"Monday":((day==2)?:"Tuesday": ((day==3)?"Wednesday":((day==4)?"Thurday":
+(day==5)? "Friday":(day==6)?"Saturday": "Sunday")))))));
+    return 0;
+}
