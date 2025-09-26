@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main() {
+    char q;
+    cout<<"enter the traffic light symbol:"<<endl;
+    cin>>q;
+    if (q=='g') {
+        cout<<"Go!"<<endl;
+    } else{
+        cout<<"stop!"<<endl;
+    }
+    return 0;
+}
